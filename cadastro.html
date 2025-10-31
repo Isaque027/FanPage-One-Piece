@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+    <link rel="stylesheet" href="/styles/cadastro.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <section class="form-container">
+
+        <form>
+
+            <h4>Cadastro</h4>
+
+            <div class="form-group">
+                <label for="cadastro-nome">Nome</label>
+                <input type="text" id="cadastro-nome" placeholder="Digite seu nome">
+            </div>
+
+            <div class="form-group">
+                <label for="cadastro-email">Email</label>
+                <input type="email" id="cadastro-email" placeholder="Digite seu email">
+            </div>
+
+            <div class="form-group">
+                <label for="cadastro-senha">Senha</label>
+                <input type="password" id="cadastro-senha" placeholder="Digite sua senha">
+            </div>
+
+            <div class="form-group">
+
+                <label for="cadastro-nivel">Seu nível em One Piece</label>
+                <select name="Nivel" id="cadastro-nivel">
+                    <option value="">Selecione uma opção</option>
+                    <option value="1">Escalando a red line(Iniciante)</option>
+                    <option value="2">Esplorando o Novo Mundo(Intermediário)</option>
+                    <option value="3">Younkou(Acompanha os semanais)</option>
+                    <option value="4">Rei dos piratas(Já encontrou o One Piece)</option>
+                </select>
+
+            </div>
+
+            <div class="form-group-radio">
+                <label>Sexo</label>
+
+                <div>
+                    <input type="radio" id="radio-masculino" name="sexo">
+                    <label for="radio-masculino">Masculino</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="radio-feminino" name="sexo">
+                    <label for="radio-feminino">Feminino</label>
+                </div>
+
+            </div>
+
+            <div class="form-group-check">
+
+                <label>Termos de Serviço</label>
+                <div>
+                    <input type="checkbox" id="termo-check" name="termos">
+                    <label for="termo-check">Aceitar</label>
+                </div>
+            </div>
+
+            <button href="/index.html" class="botao-cadastro" type="submit">Cadastrar</button>
+
+            <div class="registro-container">
+                <p>Já possui uma conta?</p>
+                <a href="login.html">Entrar</a>
+            </div>
+
+        </form>
+
+    </section>
+</body>
+
+</html>
